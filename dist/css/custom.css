@@ -1,0 +1,92 @@
+.content-p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box-p {
+    height: 330px;
+    top: 20%;
+    border-top-color: #f86c27 !important;
+}
+
+.box-p-img {
+    height: 262px;
+    top: 20%;
+    border-top: 0px !important;
+    background: transparent;
+    color: #e2e2e2;
+    padding-right: 100px;
+    box-shadow: 0 0px 0px transparent;
+}
+
+.base-color {
+    background-color: #2e2d29;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.primary-color {
+    background-color: #f86c27;
+}
+
+.box-header-p {
+    text-align: center;
+    font-size: 24px;
+    border-bottom-color: #ffffff !important;
+}
+
+.box-body-p {
+    height: 72%;
+}
+
+.login-button {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #f86c27;
+    border-color: #f86c27 !important;
+}
+
+/* .login-button:hover {
+    z-index: 10;
+    background-color: #e76625;
+    border-color: #e76625;
+} */
+
+.login-button:hover::before{
+	opacity: 1;
+	-webkit-transform: translate(0px,-190px);
+	transform: translate(0px,-190px);	
+}
+.login-button:hover::after{
+	opacity: 1;
+	-webkit-transform: translate(0px,-150px);
+	transform: translate(0px,-150px);	
+}
+
+.button-p {
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.social-media-box {
+    display: table;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 25px;
+}
+
+a {
+    color: #f86c27;
+}
+
+.hide {
+    display: none;
+}
+
+.card-text-decoration {
+    text-align: center;
+    background: #f86c27;
+}
